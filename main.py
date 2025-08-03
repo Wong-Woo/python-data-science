@@ -27,9 +27,11 @@ def print_simple_random_sampling():
 def print_systematic_sampling():
     print(df['RAD'].max())
     print(df['RAD'].min())
+
+    # count by rad level
     print(df['RAD'].value_counts())
 
-    # 
+    # uniformly sampling
     print(df.groupby('RAD', group_keys=False).apply(lambda x: x.sample(2)))
 
 # Make all functions the runnable with cli
