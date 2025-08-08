@@ -1,5 +1,5 @@
 # How to run
-```python main.py [function] [arguments]```
+```python lecture_*.py [function] [arguments]```
 
 
 # 🏡 Kaggle Boston Housing Prices Dataset (For Learning Purpose Only)
