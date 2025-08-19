@@ -1,3 +1,6 @@
+# Python-Data-Science
+This repository is to learn data science with python.
+
 # How to run
 ```python lecture_*.py [function] [arguments]```
 
